@@ -1,0 +1,76 @@
+/* La page entière */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*le Body */
+body {
+  min-height: 100vh;
+  background: url("/images/Lamborghini orange color.jpg") center / cover fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* le Formulaire */
+.formulaire {
+  max-width: 500px;
+  width: 100%;
+  padding: 15px 0 10%;
+  margin: 5% auto;
+  text-align: center;
+
+  border: 0.5px solid #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+}
+
+/* le Titre */
+.formulaire h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.formulaire label {
+  display: block;
+  text-align: left;
+  margin-left: 40px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* les inputs */
+.formulaire input[type="email"],
+.formulaire input[type="password"] {
+  width: 80%;
+  max-width: 400px;
+  line-height: 3em;
+  margin: 1em auto;
+
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 2px solid #f2f2f2;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* les boutons */
+.formulaire input[type="submit"] {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+
+  background: #fff;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  color: slategrey;
+
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - DADDY AUTO</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/contact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DADDY AUTO</h1>
+      <nav>
+        <a href="connexion.html">Connexion</a>
+        <a href="produits.html">Produits</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <hr id="trait" />
+    <main>
+      <section>
+        <h2>Contactez-nous</h2>
+        <p class="texte">
+          Vous avez des questions sur nos véhicules d'exception ? Notre équipe
+          est à votre disposition pour vous accompagner dans votre projet
+          d'achat. N'hésitez pas à nous contacter par le moyen qui vous convient
+          le mieux.
+        </p>
+      </section>
+
+      <section>
+        <h3>Nos coordonnées</h3>
+        <ul>
+          <li>
+            <strong>Adresse :</strong> 123 Avenue des Champs-Élysées, Marcory,
+            Abidjan
+          </li>
+          <li><strong>Téléphone :</strong> +225 07 07 12 34 56</li>
+          <li><strong>Email :</strong> contact@daddyauto.com</li>
+          <li><strong>Horaires :</strong> Lundi - Samedi : 9h00 - 18h00</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Formulaire de contact</h3>
+        <form action="#" method="get">
+          <div>
+            <label for="nom">Nom complet :</label>
+            <input type="text" id="nom" name="nom" required />
+          </div>
+
+          <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" required />
+          </div>
+
+          <div>
+            <label for="sujet">Sujet :</label>
+            <select id="sujet" name="sujet" required>
+              <option value="">-- Choisir un sujet --</option>
+              <option value="information">Demande d'information</option>
+              <option value="achat">Projet d'achat</option>
+              <option value="essai">Demande d'essai</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit">Envoyer le message</button>
+        </form>
+      </section>
+
+      <section>
+        <h3>Nous contacter rapidement</h3>
+        <p class="texte">
+          Pour une réponse immédiate, contactez-nous directement via WhatsApp :
+        </p>
+
+        <a
+          href="https://wa.me/2250707123456?text=Bonjour,%20je%20souhaite%20obtenir%20des%20informations%20sur%20vos%20véhicules"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contacter sur WhatsApp</a
+        >
+      </section>
+    </main>
+    <footer>
+      <hr />
+      <p>&copy; 2026 DADDY AUTO. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
